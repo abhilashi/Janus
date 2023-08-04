@@ -333,7 +333,7 @@ The `CREATE_WALLET_POOL` operation is designed to curate and consolidate a speci
     - Each wallet address should be unique within the array.
 
 - **gating (Array of required reclaim proofs)**
-  - **Description**: A reclaim proof of web2 credentials of users for inclusion in the pool.
+  - **Description**: A reclaim proof of web2 credentials of users for inclusion in the pool. These can be KYC proofs or proof of unique ID etc.
   - **Requirements**:
     - An array of valid zk snark proofs powered by reclaim.
 
