@@ -332,6 +332,12 @@ The `CREATE_WALLET_POOL` operation is designed to curate and consolidate a speci
     - An array of valid wallet addresses.
     - Each wallet address should be unique within the array.
 
+- **gating (Array of required reclaim proofs)**
+  - **Description**: A reclaim proof of web2 credentials of users for inclusion in the pool.
+  - **Requirements**:
+    - An array of valid zk snark proofs powered by reclaim.
+
+
 ##### ADD_PHASE Operation
 
 ###### Overview
